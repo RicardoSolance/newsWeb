@@ -1,0 +1,14 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.header{
+    width: 96%;
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../../assets/header.png);
+    background-color: $menu-color ;
+}

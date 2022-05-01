@@ -1,0 +1,23 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+
+.HeadImg{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    & > .tit{
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+// .img{
+//  margin-left: auto;
+//  margin-right: auto;
+//  margin-top: 15px;
+//  object-fit: cover;
+// //  position: relative;
+// }

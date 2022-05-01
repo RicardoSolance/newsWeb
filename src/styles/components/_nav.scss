@@ -1,0 +1,27 @@
+@import '../utils/variables.scss';
+
+.nav{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > .links{
+        margin-left: $spacing-md;
+        text-decoration: none;
+        color: white;
+        height: auto;
+        font-size: 18px;
+        transition: all 0.5s ease-in-out;
+    }
+    & > .links:hover{
+        margin-left: $spacing-md;
+        text-decoration: none;
+        color: rgb(207, 207, 207);
+        height: auto;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}
+    
